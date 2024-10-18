@@ -1,0 +1,21 @@
+name: Compilation_Test
+on:
+  push:
+    branches:
+      - 'main'
+jobs:
+  build_latex:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Download repo files
+        uses: actions/checkout@v4.2.1
+      - name: Compile files
+        uses: xu-cheng/latex-action@v3
+        with:
+          working_directory: Twenty-Seconds_cv
+          root_file: Twenty-Seconds-Icons_cv.tex
+      - name: Upload compiled file
+        uses: actions/upload-artifact@v4
+        with: 
+          name: R0mb0s_Twenty_Seconds_Curriculum_Vitae
+          path: Twenty-Seconds_cv/Twenty-Seconds-Icons_cv.tex
