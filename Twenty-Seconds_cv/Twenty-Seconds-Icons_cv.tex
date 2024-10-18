@@ -1,0 +1,147 @@
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%
+% Twenty Seconds Curriculum Vitae in LaTex
+% ****************************************
+% 
+% License: MIT
+%
+% For further information please visit:
+% https://github.com/spagnuolocarmine/TwentySecondsCurriculumVitae-LaTex
+% 
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\documentclass[icon]{twentysecondcv}
+\usepackage{hyperref}
+\begin{document}
+	
+	% METTERE L'AVVIO DEL LABORATORIO C-LAB - Fatto
+	
+	%%%%%%%%%%%%%%%%%%%%%%
+	%% PROFILE SIDE BAR %%
+	%%%%%%%%%%%%%%%%%%%%%%
+	% personal info
+	\profilepic{R0mb0.jpg}          % path of profile pic
+	\cvname{Francesco Rombaldoni}                   % your name
+	\cvjobtitle{Informatico}          % your actual job position
+	\cvdate{----------}        % date of birth
+	\cvaddress{----------}       % address
+	\cvnumberphone{----------}   % telephone number
+	\cvmail{f.rombaldoni@campus.uniurb.it}    % e-mail
+	\cvsite{https://github.com/R0mb0} % personal site
+	
+	\aboutme{
+		
+		Sono un informatico che attualmente lavora presso l'INRCA di Ancona, come assistente tecnico informatico, nel mentre che proseguo gli studi con la magistrale d'informatica presso l'università di Urbino.\\
+		Nel 2023 ho frequentato e vinto il \href{https://contaminationlab.uniurb.it/}{"Contaminatio Lab"} organizzato dall'università di Urbino, il quale mi ha permesso delle importanti abilità umane per la gestione della risorsa umana all'interno di un gruppo di lavoro. Ho anche acquisito delle discrete abilità imprenditoriali per lo studio di mercato e la gestione economica
+		Sono sempre stato un gran appassionato di elettronica, meccanica e della stampa in 3d  che mi aiuta ad unire le passioni.\\
+		Passo il mio tempo libero a condurre i miei progetti open-source e a insegnare/dare ripetizioni.
+	} % about me section
+	
+	%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+	%%%%%% Skill bar section, each skill must have a value between 0 an 6 (float) %%%%%%%
+	%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+	\skills{{Programmatore/5},{Insegnante/3},{Tecnico/3.8},{Coordinatore/3.6}}
+	
+	%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+	%%%%%% Skill text section, each skill must have a value between 0 an 6 %%%%%%%%%%%%
+	%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+	%\skillstext{{Curioso/6},{Studioso/5.5},{Ascoltatore/5},{Determinato/4.6},{Collaborativo/5.3}, {Propositivo/5.8}}
+	
+	\makeprofile
+	
+	%%%%%%%%%%%%%%%%%%%%%%%%%%
+	%% END PROFILE SIDE BAR %%
+	%%%%%%%%%%%%%%%%%%%%%%%%%%
+	
+	%%%%%%%%%%%%%%%%%%
+	%%%%%% BODY %%%%%%
+	%%%%%%%%%%%%%%%%%%
+	
+	%%%%%%%%%%%%%%%%%%%%
+	%% SIMPLE SECTION %%
+	%%%%%%%%%%%%%%%%%%%%
+	\section{Interessi}
+	Mi piace studiare la cose di natura tecnica, come l'informatica, l'elettronica e la meccanica. M'interesso della psicologia e delle tecniche d'insegnamento più diffuse, oltre che di strategie imprenditoriali e gestione della risorsa umana. \\
+	Nel mio tempo libero mi piace insegnare cose riguardanti l'informatica e suonare le percussioni con il mio gruppo di amici. 
+	
+	\section{Educazione}
+	
+	%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+	%%%%%%%%%%%%% TWENTY LIST ITEMS %%%%%%%%%%%%%%%%%%%%%%%
+	%% Four arguments: date; title; where; description %%%%
+	%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+	\begin{twentyicon}   
+		\twentyitemicon
+		{graduation-cap}
+		{8 Febbraio 2024}
+		{Laurea Triennale}
+		{Università degli studi di Urbino Carlo Bo\hspace*{3mm}}
+		{Informatica Applicata}
+		\twentyitemicon
+		{graduation-cap}
+		{5 Lugio 2018}
+		{Diploma}
+		{La Nuova Scuola Pesaro\hspace*{3mm}}
+		{Liceo Scientifico}
+	\end{twentyicon}
+	
+	%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+	%%%%%%%%% TWENTY LIST SHORTITEMS %%%%%%%%%%%%%%
+	%%% Two arguments: date; title/description %%%%
+	%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+	
+	
+	\section{Premi}
+	\begin{twentyshorticon}
+		\twentyitemshorticon
+		{bolt}
+		{17 giugno 2024}
+		{1º Premo - Contamination Lab}
+	\end{twentyshorticon}
+	
+	\section{Esperienze}
+	\begin{twenty}
+		\twentyitem
+		{2023-02}
+		{Frequentazione Contamination Lab di Urbino}
+		{Corso di formazione}
+		{Frequentato il Contamination Lab (Il laboratorio che aiuta l'impresa) di Urbino}
+		\twentyitem
+		{2023-05}
+		{Tirocinio presso Palestra Family Fitness Pesaro}
+		{Tirocinio}
+		{Installazione impianto server e sviluppo nuovo sito dell'attività}
+		\twentyitem
+		{2021-04}
+		{Tirocinio presso Autoscuola Bassani Pesaro}
+		{Tirocinio}
+		{Sviluppo Software per la simulazione dell'esame della patente nautica}
+		\twentyitem
+		{2018-09}
+		{Vacanza Studio a New York}
+		{Vacanza Studio}
+		{Vacanza Studio con il gruppo Study-Tours}
+		\twentyitem
+		{2017-09}
+		{Vacanza Studio a Los Angeles}
+		{Vacanza Studio}
+		{Vacanza Studio con il gruppo Study-Tours}
+		\twentyitem
+		{2017-07}
+		{Tirocinio presso Nethesis Pesaro}
+		{Tirocinio}
+		{Sviluppo di un software per la scuola}
+		\twentyitem
+		{2016-06}
+		{Tirocinio presso Centro Computer Pesaro}
+		{Tirocinio}
+		{Lavorato come tecnico informatico}
+	\end{twenty}
+	
+	%\section{other information}
+	%Alice approaches Wonderland as an anthropologist, but maintains a strong sense of noblesse oblige that comes with her class status. She has confidence in her social position, education, and the Victorian virtue of good manners. Alice has a feeling of entitlement, particularly when comparing herself to Mabel, whom she declares has a “poky little house,” and no toys. Additionally, she flaunts her limited information base with anyone who will listen and becomes increasingly obsessed with the importance of good manners as she deals with the rude creatures of Wonderland. Alice maintains a superior attitude and behaves with solicitous indulgence toward those she believes are less privileged.
+	
+	%%%%%%%%%%%%%%%%%%%%%%
+	%%%%% ENDBODY %%%%%%%%
+	%%%%%%%%%%%%%%%%%%%%%%
+	
+\end{document} 
