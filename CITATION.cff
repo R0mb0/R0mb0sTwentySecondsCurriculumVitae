@@ -1,0 +1,9 @@
+cff-version: 1.2.0
+message: "This template has been programmed by ."
+authors:
+- family-names: "Spagnuolo"
+  given-names: "Carmine"
+title: "TwentySecondsCurriculumVitae-LaTex "
+version: 1.0.0
+date-released: 2024-11-21
+url: "https://github.com/spagnuolocarmine/TwentySecondsCurriculumVitae-LaTex"
